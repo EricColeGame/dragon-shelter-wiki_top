@@ -1,0 +1,121 @@
+export const metadata = {
+  title: "Dragon Shelter Steam Deck Guide: Compatibility, Controls, and Performance Tips",
+  description: "See how Dragon Shelter runs on Steam Deck with compatibility checks, Proton setup, control layouts, battery tips, and fixes for common launch problems.",
+  category: "platforms",
+  date: "2026-10-04",
+}
+
+If you plan to raise, house, and look after your dragons from the couch, getting **Dragon Shelter Steam Deck** ready is step one. Valve's handheld has become the default way many players work through long, cozy, session-based games, and a solid dragon shelter Steam Deck setup turns a slow-burn care loop into something you can chip away at on the bus or in bed. The catch is that not every title launches cleanly on SteamOS, and the settings that feel great on a desktop are not always the ones that keep a handheld cool, quiet, and smooth. This guide covers compatibility, Proton setup, controls, battery tuning, and the fixes that solve most problems.
+
+## Is Dragon Shelter Steam Deck Ready? Compatibility Basics
+
+The fastest answer lives on the game's Steam store page. Valve assigns every title a Steam Deck compatibility badge, and that badge tells you more about your first hour than any trailer will. If you are researching Dragon Shelter Steam Deck support before buying, read the badge first, then read the fine print underneath it — Valve lists exactly which features fall short.
+
+There is one important caveat: a badge is a snapshot, not a life sentence. Developers patch handheld support constantly, and community tools often show a game running far better than its official rating suggests. That is why it pays to check two sources before you commit.
+
+| Deck rating | What it means | What to do for Dragon Shelter |
+|---|---|---|
+| Verified | Runs well with default controls and readable text | Install and play; tune only if you want more battery life |
+| Playable | Runs, but something needs attention | Expect touchscreen input, smaller text, or a manual controller layout |
+| Unsupported | Valve has not confirmed it works | Try forcing a Proton version, then check community reports before refunding |
+| Unknown | Not yet reviewed | Check ProtonDB and the Steam community hub for player experience |
+
+Beyond the badge, look at what other owners say. Community reports on ProtonDB and the game's Steam discussion board are usually the first place fixes appear — especially launch options and Proton version workarounds. If a recent patch broke performance, you will see it there within days, long before any official rating changes.
+
+## Installing and Running Dragon Shelter on SteamOS
+
+Installation is identical to any other Steam game, but a few habits save hours of frustration later. Work through these steps in order.
+
+| Step | Action | Why it matters |
+|---|---|---|
+| 1 | Install to the internal SSD if space allows | Faster loads and smoother streaming than a microSD card |
+| 2 | Launch once with default settings | Gives you a baseline before you change anything |
+| 3 | If it fails, open Properties → Compatibility and force Proton Experimental | Solves the majority of launch failures |
+| 4 | Verify game files from the same Properties menu | Repairs a corrupted or partial download |
+| 5 | Confirm Steam Cloud is enabled | Keeps your shelter intact across Deck, desktop, and laptop |
+| 6 | Let the first session run a few minutes | Shader compilation settles after the opening scenes |
+
+Proton is the compatibility layer that lets Windows games run on SteamOS, and it is the single biggest variable in handheld performance. Forcing a specific version is not a hack — it is a supported feature built into Steam. If one version stutters or crashes, switch to another and test again. Players frequently report that a game Valve marks as Unsupported runs perfectly with the right Proton build, so a bad first launch is rarely the final word.
+
+## Best Settings for a Smooth Dragon Shelter Steam Deck Run
+
+Once the game is running, your goal is simple: a stable frame rate at the lowest power draw that holds it. Handhelds punish wasted frames with heat, fan noise, and battery drain. Open the Quick Access menu with the **...** button, go to the performance tab, and start here.
+
+| Setting | Where to find it | Starting point | Why it helps |
+|---|---|---|---|
+| Frame rate limit | Quick Access → Performance | 30 or 40 FPS | Locks frame pacing and cuts heat versus an uncapped frame rate |
+| TDP limit | Quick Access → Performance | 8–10 W for light scenes | Caps power draw; raise it only if frames drop |
+| GPU clock | Quick Access → Performance | Auto | Manual clocks rarely beat the default governor |
+| Resolution | In-game | 1280×800 native | Avoids the blur that comes from upscaling |
+| FSR | Quick Access → Performance | Off at native | Only useful if you lower the internal render resolution |
+| Half-rate shading | Quick Access → Performance | Off unless GPU-bound | Can help, but softens fine detail |
+| V-Sync | In-game | Off | Use the Deck's limiter instead of the game's |
+| HDR | In-game (OLED models) | On if supported | Wider color range on the OLED panel |
+
+Treat these as starting points, not commandments. A patch can shift what a title needs, so change one setting at a time and watch the frame-time graph in the performance overlay.
+
+### Battery Life Expectations
+
+Battery life is arithmetic: capacity divided by draw. The LCD Deck packs a 40 Wh battery and the OLED a 50 Wh one, so your runtime scales almost linearly with the TDP limit you set. The numbers below are rough estimates for planning, not measured benchmarks.
+
+| Power profile | Approx. system draw | LCD runtime | OLED runtime |
+|---|---|---|---|
+| Battery saver | ~7 W | ~5.5 hours | ~7 hours |
+| Balanced | ~10 W | ~4 hours | ~5 hours |
+| Performance | ~15 W | ~2.5 hours | ~3 hours |
+| Uncapped | 20 W+ | ~2 hours | ~2.5 hours |
+
+If you mostly play in short bursts, the balanced profile is the sweet spot. If you are settling in for a long session, cap the frame rate at 30 and lower the TDP until frames start to dip, then nudge it back up one step.
+
+## Controls: Mapping Dragon Shelter to Steam Deck Inputs
+
+Dragon Shelter Steam Deck controls deserve more thought than most players give them, especially if the game leans on menus, building placement, or a cursor. Steam Input lets you remap nearly everything, and you can save a layout per game.
+
+| Steam Deck input | Suggested use | Notes |
+|---|---|---|
+| Right trackpad | Mouse cursor or camera | Excellent for dense menus and precise placement |
+| Left trackpad | Radial menu or hotbar | Faster than scrolling through tabs |
+| Back buttons (L4/L5) | Quick save and open build menu | Keeps your thumbs on the sticks |
+| Gyro | Fine camera aim | Enable "Gyro as mouse" for gentle corrections |
+| Touchscreen | Dragging items and quick taps | Ideal for inventory management |
+| R2 / L2 | Confirm / cancel or camera zoom | Feels natural in most layouts |
+
+Browse the community layouts before building your own. Player experience shows that someone has usually already solved the awkward parts, and you can favorite a layout and tweak it from there. Save your version with a clear name so a future update does not overwrite your work.
+
+## Storage, Docking, and Troubleshooting
+
+### Internal SSD vs. microSD
+
+Install Dragon Shelter on the internal drive if you have room. Open-world or heavily streamed scenes benefit most, and load times shrink noticeably. A microSD card is fine for a second playthrough, but avoid running the game from a slow card while also recording or downloading in the background — that combination causes stutter that looks like a performance problem but is really a storage bottleneck.
+
+### Docking to a TV or Monitor
+
+Docking works well, but plan for two changes. First, output resolution may jump to 1080p or higher, which raises the GPU load; lower the in-game resolution or enable FSR to compensate. Second, Bluetooth controllers add input latency compared with the built-in controls. If your dragon shelter management gets fiddly at 1080p, drop the frame rate cap and accept 30 FPS rather than fighting for 60.
+
+### Common Problems and Fixes
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| Game returns to the library at launch | Proton mismatch | Force Proton Experimental in Properties → Compatibility |
+| Black screen after the logo | Fullscreen mode conflict | Launch in windowed or borderless mode |
+| Stutter during the first ten minutes | Shader compilation | Keep playing; do not clear the shader cache |
+| Text is too small to read | Unscaled UI | Raise in-game UI scale; use the system magnifier (Steam + L1) |
+| Saves missing on another device | Steam Cloud conflict | Confirm sync finished before switching devices |
+| Controller stops responding | Steam Input conflict | Toggle Steam Input per game and reselect a layout |
+| Loud fan and warm chassis | Uncapped frame rate | Set a frame limit and a TDP cap |
+
+For hardware specifics, Valve's official Steam Deck page documents the performance menu, docking behavior, and storage options in detail.
+
+## FAQ
+
+**Is Dragon Shelter Steam Deck compatible out of the box?**
+It depends on the current compatibility badge on the store page. Verified means it should just work. Playable means you may need touch input or a custom layout. If it is Unsupported or Unknown, forcing a Proton version is worth trying before you give up — community reports often show a game running better than its official rating.
+
+**What settings give the best battery life for Dragon Shelter Steam Deck sessions?**
+Cap the frame rate at 30 FPS, set a TDP limit around 8–10 W, keep the resolution at 1280×800, and turn off in-game V-Sync in favor of the Deck's own limiter. On OLED models you can also drop the refresh rate to 60 Hz when the game does not need 90.
+
+**Can I play Dragon Shelter on Steam Deck while docked to a TV?**
+Yes. Expect a higher GPU load at 1080p or above, so lower the in-game resolution or enable FSR, and be ready to accept a 30 FPS cap. A Bluetooth controller works, though wired or the built-in controls will feel more responsive.
+
+**Why does Dragon Shelter stutter on my Steam Deck even though the frame rate looks fine?**
+The usual culprits are shader compilation during the first session, an uncapped frame rate causing thermal throttling, or running the game from a slow microSD card while other downloads are active. Cap the frame rate, move the install to the internal SSD, and let the opening scenes finish before judging performance.

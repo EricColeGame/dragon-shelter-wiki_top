@@ -1,0 +1,120 @@
+export const metadata = {
+  title: "Dragon Shelter Multiplayer Guide: Co-op Roles, Shared Habitats, and Tips",
+  description: "Learn how dragon shelter multiplayer works: hosting co-op sessions, splitting caretaker roles, sharing habitats, trading dragons, and fixing common issues.",
+  category: "mechanics",
+  date: "2026-10-04",
+}
+
+## Why Dragon Shelter Multiplayer Changes the Whole Loop
+
+Raising a stable of dragons alone is a slow, cozy rhythm — but dragon shelter multiplayer turns that rhythm into a negotiation. Every feeding schedule, every habitat expansion, and every egg in the incubator suddenly belongs to more than one person. That shift matters because dragon shelter multiplayer is where the genre's real depth appears: specialization, trust, and the small social friction that makes a shared sanctuary feel alive.
+
+It also matters for a practical reason. Not every game with "dragon shelter" in its name supports online play, and the ones that do rarely explain their rules well in-game. Community reports consistently describe the same confusion: who owns the save file, whether visitors can breed dragons, and what happens when the host logs off mid-session.
+
+This guide covers the mechanics that show up across dragon shelter games with co-op support, plus the habits that keep a shared sanctuary from collapsing. Treat the specifics as patterns to verify in your title, not universal law.
+
+| Aspect | Solo sanctuary | Dragon shelter multiplayer |
+|---|---|---|
+| Pacing | You set the tempo entirely | Tempo is negotiated; one fast player can outrun a slow one |
+| Dragon capacity | Limited by your own build time | Scales with combined effort, but so does habitat demand |
+| Resource gathering | One gatherer, one bottleneck | Parallel farming, but shared storage creates disputes |
+| Breeding | Fully under your control | Often gated by host permissions or trust settings |
+| Failure state | You lose your own progress | A bad actor or a dropped host can stall everyone |
+| Best for | Relaxed, uninterrupted play | Players who enjoy planning and coordination |
+
+## How Co-op Sessions Actually Work
+
+Most dragon shelter multiplayer implementations fall into a few recognizable shapes. Understanding which shape your game uses saves hours of frustration, because the shape determines everything about persistence, permissions, and performance.
+
+**Host-owned sessions** are the most common. One player loads a save, and everyone else joins as a guest. Progress lives on the host's file. If the host stops playing, the sanctuary stops existing for everyone else — which is why so many long-running groups nominate a dedicated "save keeper" who plays on a predictable schedule.
+
+**Drop-in/drop-out co-op** lets friends wander in and out without ceremony. It is convenient, but it usually means guests have limited authority over permanent decisions like demolishing a habitat or releasing a dragon.
+
+**Async or shared-save play** skips live sessions entirely. Players pass a save file or a cloud slot back and forth, each taking a shift. It suits people in different time zones, though it removes the spontaneity that makes live co-op fun.
+
+**Dedicated servers** are rare in this genre but exist in some larger titles. They solve host-dependency at the cost of setup effort.
+
+Before you commit to a group, check what the store page actually promises. Browsing [Steam's co-op tag page](https://store.steampowered.com/tags/en/Co-op/) is a fast way to see which titles advertise shared play, and the store description usually spells out player counts and whether online co-op is live or planned.
+
+| Session type | Persistence | Guest authority | Main drawback |
+|---|---|---|---|
+| Host-owned | Tied to host save | Medium to high | Host dependency |
+| Drop-in/drop-out | Tied to host save | Low | Limited long-term decisions |
+| Shared-save / async | Tied to the file | Full during your shift | No live coordination |
+| Dedicated server | Server-side | Configurable | Setup and cost |
+
+## Dividing the Work: Roles That Keep a Shared Sanctuary Running
+
+The single biggest predictor of a successful long-term group is role clarity. When two people both assume they are handling feeding, dragons go hungry. When nobody claims construction, the shelter stalls at its starting footprint.
+
+A simple role split works surprisingly well. Assign primary roles at the start of a session, then rotate every few in-game days so nobody gets stuck with the least popular job.
+
+| Role | Core tasks | Why it matters | Common mistake |
+|---|---|---|---|
+| Keeper | Feeding, cleaning, illness checks | Prevents slow stat decay across the whole roster | Hoarding food "just in case" |
+| Builder | Habitat expansion, fencing, decor | Unlocks capacity for new rescues | Building before checking shared storage |
+| Forager | Gathering food, ore, and materials | Keeps the keeper supplied | Gathering rare items nobody requested |
+| Breeder | Pairing dragons, managing eggs | Drives long-term roster quality | Breeding without agreeing on capacity |
+| Trader | Selling surplus, buying essentials | Converts excess into gold | Underselling rare dragons |
+| Scout | Finding rescues and map events | Feeds the shelter's growth | Bringing home more dragons than habitats allow |
+
+Two rules keep this system honest. First, the builder and the breeder must talk before either acts, because both compete for the same space. Second, the trader should never sell a dragon another player raised without asking — that is the fastest way to end a co-op group.
+
+## Habitats, Breeding, and Trading Between Players
+
+Shared habitats are where dragon shelter multiplayer gets genuinely interesting and genuinely messy. In most implementations, habitats are communal: any player can place a dragon in an enclosure, and any player can take one out. That openness is great for flexibility and terrible for organization unless you establish conventions early.
+
+A workable convention is to sort enclosures by function rather than by owner. One habitat for breeding pairs, one for juveniles, one for rescues in quarantine. That way, every player knows where a dragon belongs without asking, and the layout survives when someone leaves the group.
+
+Breeding is usually the most permission-sensitive system. Some titles let any player initiate a pairing; others restrict it to the host. Community reports suggest that groups who agree on a "no breeding without a free habitat slot" rule avoid the most common disaster: an egg with nowhere to go.
+
+Trading between players is often overlooked. Even when a game has no formal trade window, players can usually transfer dragons through shared storage or by releasing and re-rescuing. If your title supports direct gifting, use it — it is cleaner and avoids accidental losses.
+
+| System | Usually shared? | Agree on this first | Risk if you skip it |
+|---|---|---|---|
+| Habitats | Yes | Sorting convention (breeding, juvenile, quarantine) | Overcrowding and stat decay |
+| Food storage | Yes | Who gathers and who spends | Starvation during a busy session |
+| Breeding | Varies | Permission level and slot availability | Eggs with no habitat |
+| Gold / currency | Often shared | Purchase approval threshold | One player drains the treasury |
+| Dragon transfers | Varies | Whether transfers are reversible | Lost or duplicated dragons |
+
+## Fixing the Most Common Co-op Problems
+
+Most multiplayer failures in this genre are not bugs — they are mismatched expectations. Still, a handful of technical issues come up often enough to plan for.
+
+| Problem | Likely cause | Fix |
+|---|---|---|
+| Guest progress vanished | Host loaded an older save | Confirm whose file is canonical before each session |
+| Dragons went unfed | Both players assumed the other was feeding | Post a session-start checklist |
+| Habitat limit hit | Builder and breeder acted independently | Require a quick check-in before spending materials |
+| Lag during large sessions | Too many dragons and objects in one area | Reduce decor density or split the sanctuary into zones |
+| Player left with rare dragons | No transfer rules | Set a written rule: no dragon leaves without group consent |
+| Save corrupted after a crash | Unclean shutdown | Back up the save folder before long sessions |
+
+A short pre-session routine prevents most of these. Load the save, confirm the roster, check food levels, agree on one goal for the session, and only then start playing. It takes two minutes and saves entire evenings.
+
+## Etiquette and Long-Term Play
+
+Sustained dragon shelter multiplayer groups tend to share a few habits:
+
+- **Write things down.** A shared note with roles, habitat assignments, and pending goals removes most ambiguity.
+- **Announce big decisions.** Expanding a habitat or selling a dragon affects everyone.
+- **Respect the save keeper's schedule.** If the host plays at set times, plan around them rather than pressuring them to log in.
+- **Leave the sanctuary better than you found it.** Refill feeders, clean enclosures, and return borrowed materials.
+- **Agree on an exit plan.** Decide in advance how the group splits assets if someone stops playing.
+
+Groups that follow these norms often keep a single sanctuary running for months, which is far longer than most solo players stay engaged with the same save.
+
+## FAQ
+
+**Does every dragon shelter game support multiplayer?**
+No. Many dragon shelter titles are designed as single-player experiences, and some add online co-op only after launch. Always check the store page or official site for the specific game you are considering before buying it for group play.
+
+**How many players can join a dragon shelter multiplayer session?**
+It varies widely. Small indie titles often cap co-op at two to four players, while larger projects may support more. The player count is usually listed in the store description or in the game's multiplayer menu.
+
+**Can guests keep progress in a host-owned session?**
+Usually not in the traditional sense. In most host-owned setups, the sanctuary lives on the host's save file, so guests contribute to that world rather than building their own. If you want your own sanctuary, start a separate save.
+
+**What is the fastest way to fix a desync or missing dragon in co-op?**
+Rejoin the session first, since most desyncs resolve when a client reconnects. If the dragon is still missing, have the host reload a recent backup and check whether the creature was moved to a habitat the other player cannot see.

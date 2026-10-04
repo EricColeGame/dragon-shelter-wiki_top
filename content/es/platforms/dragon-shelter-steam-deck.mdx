@@ -1,0 +1,121 @@
+export const metadata = {
+  title: "Guía de Dragon Shelter en Steam Deck: compatibilidad, controles y consejos de rendimiento",
+  description: "Descubre cómo funciona Dragon Shelter en Steam Deck con comprobaciones de compatibilidad, configuración de Proton, esquemas de control, consejos de batería y soluciones para problemas comunes de inicio.",
+  category: "platforms",
+  date: "2026-10-04",
+}
+
+Si planeas criar, alojar y cuidar a tus dragones desde el sofá, preparar **Dragon Shelter Steam Deck** es el primer paso. La consola portátil de Valve se ha convertido en la forma predeterminada en que muchos jugadores avanzan en juegos largos, acogedores y por sesiones, y una buena configuración de Dragon Shelter en Steam Deck convierte un bucle de cuidado pausado en algo que puedes ir haciendo poco a poco en el autobús o en la cama. El problema es que no todos los títulos se inician sin problemas en SteamOS, y los ajustes que se sienten geniales en un escritorio no siempre son los que mantienen una portátil fría, silenciosa y fluida. Esta guía cubre compatibilidad, configuración de Proton, controles, ajuste de batería y las soluciones que resuelven la mayoría de los problemas.
+
+## ¿Dragon Shelter está listo para Steam Deck? Conceptos básicos de compatibilidad
+
+La respuesta más rápida está en la página de la tienda de Steam del juego. Valve asigna a cada título una insignia de compatibilidad con Steam Deck, y esa insignia te dice más sobre tu primera hora que cualquier tráiler. Si estás investigando la compatibilidad de Dragon Shelter con Steam Deck antes de comprar, lee primero la insignia y luego la letra pequeña debajo: Valve enumera exactamente qué funciones no cumplen.
+
+Hay una advertencia importante: una insignia es una instantánea, no una condena de por vida. Los desarrolladores parchean la compatibilidad portátil constantemente, y las herramientas de la comunidad a menudo muestran un juego funcionando mucho mejor de lo que sugiere su calificación oficial. Por eso conviene consultar dos fuentes antes de decidirte.
+
+| Calificación en Deck | Qué significa | Qué hacer para Dragon Shelter |
+|---|---|---|
+| Verificado | Funciona bien con controles predeterminados y texto legible | Instálalo y juega; ajusta solo si quieres más duración de batería |
+| Jugable | Funciona, pero algo requiere atención | Espera entrada táctil, texto más pequeño o un esquema de control manual |
+| No compatible | Valve no ha confirmado que funcione | Prueba a forzar una versión de Proton y luego revisa informes de la comunidad antes de pedir reembolso |
+| Desconocido | Aún no revisado | Consulta ProtonDB y el centro de la comunidad de Steam para conocer la experiencia de los jugadores |
+
+Más allá de la insignia, mira lo que dicen otros propietarios. Los informes de la comunidad en ProtonDB y el foro de discusión de Steam del juego suelen ser el primer lugar donde aparecen las soluciones, especialmente las opciones de inicio y los trucos con versiones de Proton. Si un parche reciente ha roto el rendimiento, lo verás allí en cuestión de días, mucho antes de que cambie cualquier calificación oficial.
+
+## Instalar y ejecutar Dragon Shelter en SteamOS
+
+La instalación es idéntica a la de cualquier otro juego de Steam, pero unos cuantos hábitos te ahorran horas de frustración después. Sigue estos pasos en orden.
+
+| Paso | Acción | Por qué importa |
+|---|---|---|
+| 1 | Instala en el SSD interno si tienes espacio | Cargas más rápidas y transmisión más fluida que con una tarjeta microSD |
+| 2 | Inícialo una vez con la configuración predeterminada | Te da una referencia antes de cambiar nada |
+| 3 | Si falla, abre Propiedades → Compatibilidad y fuerza Proton Experimental | Resuelve la mayoría de fallos de inicio |
+| 4 | Verifica los archivos del juego desde el mismo menú Propiedades | Repara una descarga corrupta o parcial |
+| 5 | Confirma que Steam Cloud esté activado | Mantiene tu refugio intacto en Deck, escritorio y portátil |
+| 6 | Deja que la primera sesión se ejecute unos minutos | La compilación de shaders se estabiliza después de las escenas iniciales |
+
+Proton es la capa de compatibilidad que permite ejecutar juegos de Windows en SteamOS, y es la mayor variable individual en el rendimiento portátil. Forzar una versión específica no es un hack: es una función compatible integrada en Steam. Si una versión se entrecorta o se bloquea, cambia a otra y vuelve a probar. Los jugadores informan con frecuencia de que un juego que Valve marca como No compatible funciona perfectamente con la compilación de Proton adecuada, así que un mal primer inicio rara vez es la última palabra.
+
+## Mejores ajustes para una ejecución fluida de Dragon Shelter en Steam Deck
+
+Una vez que el juego se ejecuta, tu objetivo es simple: una tasa de fotogramas estable con el menor consumo de energía que la mantenga. Las consolas portátiles castigan los fotogramas desperdiciados con calor, ruido del ventilador y consumo de batería. Abre el menú de Acceso rápido con el botón **...**, ve a la pestaña de rendimiento y empieza aquí.
+
+| Ajuste | Dónde encontrarlo | Punto de partida | Por qué ayuda |
+|---|---|---|---|
+| Límite de velocidad de fotogramas | Acceso rápido → Rendimiento | 30 o 40 FPS | Fija el ritmo de fotogramas y reduce el calor frente a una tasa sin límite |
+| Límite de TDP | Acceso rápido → Rendimiento | 8–10 W para escenas ligeras | Limita el consumo de energía; súbelo solo si caen los fotogramas |
+| Reloj de GPU | Acceso rápido → Rendimiento | Automático | Los relojes manuales rara vez superan al regulador predeterminado |
+| Resolución | En el juego | 1280×800 nativa | Evita el desenfoque que produce el reescalado |
+| FSR | Acceso rápido → Rendimiento | Desactivado en nativa | Solo es útil si reduces la resolución de renderizado interna |
+| Sombreado a mitad de tasa | Acceso rápido → Rendimiento | Desactivado salvo que la GPU sea el cuello de botella | Puede ayudar, pero suaviza el detalle fino |
+| V-Sync | En el juego | Desactivado | Usa el limitador del Deck en lugar del del juego |
+| HDR | En el juego (modelos OLED) | Activado si es compatible | Mayor rango de color en el panel OLED |
+
+Trata estos ajustes como puntos de partida, no como mandamientos. Un parche puede cambiar lo que necesita un título, así que cambia un ajuste a la vez y observa el gráfico de tiempo de fotograma en la superposición de rendimiento.
+
+### Expectativas de duración de batería
+
+La duración de la batería es aritmética: capacidad dividida por consumo. El Deck LCD incluye una batería de 40 Wh y el OLED una de 50 Wh, así que tu tiempo de uso escala casi linealmente con el límite de TDP que establezcas. Las cifras siguientes son estimaciones aproximadas para planificar, no pruebas comparativas medidas.
+
+| Perfil de energía | Consumo aproximado del sistema | Autonomía LCD | Autonomía OLED |
+|---|---|---|---|
+| Ahorro de batería | ~7 W | ~5,5 horas | ~7 horas |
+| Equilibrado | ~10 W | ~4 horas | ~5 horas |
+| Rendimiento | ~15 W | ~2,5 horas | ~3 horas |
+| Sin límite | 20 W+ | ~2 horas | ~2,5 horas |
+
+Si juegas sobre todo en ráfagas cortas, el perfil equilibrado es el punto ideal. Si te preparas para una sesión larga, limita la tasa de fotogramas a 30 y baja el TDP hasta que los fotogramas empiecen a caer, luego súbelo un paso.
+
+## Controles: asignar Dragon Shelter a las entradas de Steam Deck
+
+Los controles de Dragon Shelter en Steam Deck merecen más consideración de la que la mayoría de los jugadores les da, especialmente si el juego depende de menús, colocación de edificios o un cursor. Steam Input te permite reasignar casi todo, y puedes guardar un esquema por juego.
+
+| Entrada de Steam Deck | Uso sugerido | Notas |
+|---|---|---|
+| Trackpad derecho | Cursor del ratón o cámara | Excelente para menús densos y colocación precisa |
+| Trackpad izquierdo | Menú radial o barra de acceso rápido | Más rápido que desplazarse por pestañas |
+| Botones traseros (L4/L5) | Guardado rápido y abrir menú de construcción | Mantiene los pulgares en los joysticks |
+| Giroscopio | Apuntado fino de cámara | Activa "Giroscopio como ratón" para correcciones suaves |
+| Pantalla táctil | Arrastrar objetos y toques rápidos | Ideal para gestionar el inventario |
+| R2 / L2 | Confirmar / cancelar o zoom de cámara | Se siente natural en la mayoría de esquemas |
+
+Explora los esquemas de la comunidad antes de crear el tuyo. La experiencia de los jugadores demuestra que alguien suele haber resuelto ya las partes incómodas, y puedes marcar un esquema como favorito y ajustarlo desde ahí. Guarda tu versión con un nombre claro para que una futura actualización no sobrescriba tu trabajo.
+
+## Almacenamiento, conexión a base y solución de problemas
+
+### SSD interno vs. microSD
+
+Instala Dragon Shelter en la unidad interna si tienes espacio. Las escenas de mundo abierto o con mucha transmisión de datos son las que más se benefician, y los tiempos de carga se reducen notablemente. Una tarjeta microSD está bien para una segunda partida, pero evita ejecutar el juego desde una tarjeta lenta mientras grabas o descargas en segundo plano; esa combinación causa tirones que parecen un problema de rendimiento, pero en realidad son un cuello de botella de almacenamiento.
+
+### Conectar a una TV o monitor
+
+La conexión a base funciona bien, pero cuenta con dos cambios. Primero, la resolución de salida puede subir a 1080p o más, lo que aumenta la carga de la GPU; baja la resolución en el juego o activa FSR para compensar. Segundo, los mandos Bluetooth añaden latencia de entrada en comparación con los controles integrados. Si la gestión de tu refugio de dragones se vuelve complicada a 1080p, baja el límite de tasa de fotogramas y acepta 30 FPS en lugar de pelear por 60.
+
+### Problemas comunes y soluciones
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| El juego vuelve a la biblioteca al iniciarse | Incompatibilidad de Proton | Fuerza Proton Experimental en Propiedades → Compatibilidad |
+| Pantalla negra después del logotipo | Conflicto de modo de pantalla completa | Inícialo en modo ventana o sin bordes |
+| Tirones durante los primeros diez minutos | Compilación de shaders | Sigue jugando; no borres la caché de shaders |
+| El texto es demasiado pequeño para leerlo | IU sin escalar | Aumenta la escala de IU en el juego; usa la lupa del sistema (Steam + L1) |
+| Faltan partidas guardadas en otro dispositivo | Conflicto de Steam Cloud | Confirma que la sincronización haya terminado antes de cambiar de dispositivo |
+| El mando deja de responder | Conflicto de Steam Input | Activa o desactiva Steam Input por juego y vuelve a seleccionar un esquema |
+| Ventilador ruidoso y carcasa caliente | Tasa de fotogramas sin límite | Establece un límite de fotogramas y un tope de TDP |
+
+Para detalles específicos del hardware, la página oficial de Steam Deck de Valve documenta el menú de rendimiento, el comportamiento de la conexión a base y las opciones de almacenamiento en detalle.
+
+## Preguntas frecuentes
+
+**¿Dragon Shelter es compatible con Steam Deck nada más sacarlo de la caja?**
+Depende de la insignia de compatibilidad actual en la página de la tienda. Verificado significa que debería funcionar sin más. Jugable significa que puede que necesites entrada táctil o un esquema personalizado. Si es No compatible o Desconocido, vale la pena probar a forzar una versión de Proton antes de rendirte; los informes de la comunidad a menudo muestran un juego funcionando mejor que su calificación oficial.
+
+**¿Qué ajustes dan la mejor duración de batería para sesiones de Dragon Shelter en Steam Deck?**
+Limita la tasa de fotogramas a 30 FPS, establece un límite de TDP de alrededor de 8–10 W, mantén la resolución en 1280×800 y desactiva el V-Sync del juego en favor del limitador del propio Deck. En modelos OLED también puedes bajar la frecuencia de actualización a 60 Hz cuando el juego no necesite 90.
+
+**¿Puedo jugar a Dragon Shelter en Steam Deck mientras está conectado a una TV?**
+Sí. Espera una mayor carga de GPU a 1080p o más, así que baja la resolución en el juego o activa FSR, y prepárate para aceptar un límite de 30 FPS. Un mando Bluetooth funciona, aunque los controles con cable o los integrados se sentirán más ágiles.
+
+**¿Por qué Dragon Shelter se entrecorta en mi Steam Deck aunque la tasa de fotogramas parezca correcta?**
+Los culpables habituales son la compilación de shaders durante la primera sesión, una tasa de fotogramas sin límite que provoca limitación térmica, o ejecutar el juego desde una tarjeta microSD lenta mientras hay otras descargas activas. Limita la tasa de fotogramas, mueve la instalación al SSD interno y deja que terminen las escenas iniciales antes de juzgar el rendimiento.

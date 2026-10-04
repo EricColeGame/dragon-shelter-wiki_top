@@ -8,7 +8,42 @@
   },
   "nav": {
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "characters": "Characters",
+    "items": "Items",
+    "release": "Release",
+    "platforms": "Platforms",
+    "community": "Community"
+  },
+  "guide": {
+    "overviewTitle": "Dragon Shelter Guides",
+    "overviewDescription": "Step-by-step Dragon Shelter guides for beginners, farming, cooking, crafting, and everything you need during your first weeks on the sanctuary."
+  },
+  "mechanics": {
+    "overviewTitle": "Dragon Shelter Game Mechanics",
+    "overviewDescription": "How Dragon Shelter's core systems work, including dragon care, farming, cooking, crafting, management, multiplayer, and village restoration."
+  },
+  "characters": {
+    "overviewTitle": "Dragon Shelter Dragons & Characters",
+    "overviewDescription": "Meet every Dragon Shelter dragon, companion, helper, and friendship path in the game's cast of magical creatures."
+  },
+  "items": {
+    "overviewTitle": "Dragon Shelter Items & Recipes",
+    "overviewDescription": "Dragon Shelter item and recipe guides covering bread, jam, the kitchen, the firefly lantern, and the materials you craft along the way."
+  },
+  "release": {
+    "overviewTitle": "Dragon Shelter Release & News",
+    "overviewDescription": "Dragon Shelter release date, launch details, demo, trailer, and review coverage collected in one place."
+  },
+  "platforms": {
+    "overviewTitle": "Dragon Shelter Platforms",
+    "overviewDescription": "Where to play Dragon Shelter, with guides for Steam, PC, Steam Deck, Nintendo Switch, and Xbox."
+  },
+  "community": {
+    "overviewTitle": "Dragon Shelter Community",
+    "overviewDescription": "Dragon Shelter community hubs, Reddit, co-op and multiplayer discussion, and the platforms players use to share builds and tips."
   },
   "home": {
     "meta": {
@@ -432,12 +467,9 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -448,7 +480,8 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "browseCategories": "Browse Categories"
   },
   "footer": {
     "aboutTitle": "Dragon Shelter Wiki",
@@ -463,10 +496,10 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Steam Community Hub",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "characterGuides": "Dragon Guides",
+    "mechanicsGuides": "Mechanics",
+    "itemGuides": "Items & Recipes"
   }
 }

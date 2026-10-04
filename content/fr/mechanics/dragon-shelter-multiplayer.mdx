@@ -1,0 +1,120 @@
+export const metadata = {
+  title: "Guide multijoueur de Dragon Shelter : rôles coopératifs, habitats partagés et astuces",
+  description: "Découvrez comment fonctionne le multijoueur de Dragon Shelter : héberger des sessions coop, répartir les rôles de soigneur, partager les habitats, échanger des dragons et résoudre les problèmes courants.",
+  category: "mechanics",
+  date: "2026-10-04",
+}
+
+## Pourquoi le multijoueur de Dragon Shelter change toute la boucle de jeu
+
+Élever seul une collection de dragons est un rythme lent et cosy — mais le multijoueur de Dragon Shelter transforme ce rythme en négociation. Chaque horaire de nourrissage, chaque extension d’habitat et chaque œuf dans l’incubateur appartient soudain à plus d’une personne. Ce changement compte parce que c’est dans le multijoueur de refuge de dragons qu’apparaît la vraie profondeur du genre : la spécialisation, la confiance et les petites frictions sociales qui font qu’un sanctuaire partagé semble vivant.
+
+Cela compte aussi pour une raison pratique. Tous les jeux portant « dragon shelter » dans leur nom ne prennent pas en charge le jeu en ligne, et ceux qui le font expliquent rarement bien leurs règles en jeu. Les retours de la communauté décrivent systématiquement la même confusion : qui possède le fichier de sauvegarde, si les visiteurs peuvent faire se reproduire les dragons, et ce qui se passe lorsque l’hôte se déconnecte en pleine session.
+
+Ce guide couvre les mécanismes que l’on retrouve dans les jeux de refuge de dragons avec prise en charge de la coopération, ainsi que les habitudes qui empêchent un sanctuaire partagé de s’effondrer. Considérez les détails comme des schémas à vérifier dans votre titre, pas comme une loi universelle.
+
+| Aspect | Sanctuaire solo | Multijoueur de refuge de dragons |
+|---|---|---|
+| Rythme | Vous définissez entièrement le tempo | Le tempo se négocie ; un joueur rapide peut distancer un joueur lent |
+| Capacité de dragons | Limitée par votre propre temps de construction | Augmente avec l’effort combiné, mais la demande en habitats aussi |
+| Récolte des ressources | Un seul récolteur, un seul goulot d’étranglement | Récolte en parallèle, mais le stockage partagé crée des conflits |
+| Reproduction | Entièrement sous votre contrôle | Souvent conditionnée par les permissions de l’hôte ou les réglages de confiance |
+| État d’échec | Vous perdez votre propre progression | Un joueur malveillant ou un hôte déconnecté peut bloquer tout le monde |
+| Idéal pour | Jeu détendu et sans interruption | Joueurs qui aiment planifier et se coordonner |
+
+## Comment fonctionnent réellement les sessions coopératives
+
+La plupart des implémentations multijoueur de refuge de dragons se classent en quelques formes reconnaissables. Comprendre laquelle votre jeu utilise vous épargne des heures de frustration, car la forme détermine tout : persistance, permissions et performances.
+
+**Les sessions hébergées par l’hôte** sont les plus courantes. Un joueur charge une sauvegarde et tous les autres rejoignent en tant qu’invités. La progression vit dans le fichier de l’hôte. Si l’hôte arrête de jouer, le sanctuaire cesse d’exister pour tout le monde — c’est pourquoi tant de groupes de longue durée désignent un « gardien de sauvegarde » dédié qui joue selon un emploi du temps prévisible.
+
+**La coop en entrée/sortie libre** permet aux amis d’entrer et de sortir sans cérémonie. C’est pratique, mais cela signifie généralement que les invités ont une autorité limitée sur les décisions permanentes comme démolir un habitat ou relâcher un dragon.
+
+**Le jeu asynchrone ou à sauvegarde partagée** se passe entièrement des sessions en direct. Les joueurs se passent un fichier de sauvegarde ou un emplacement cloud, chacun prenant son tour. Cela convient aux personnes dans des fuseaux horaires différents, même si cela supprime la spontanéité qui rend la coop en direct amusante.
+
+**Les serveurs dédiés** sont rares dans ce genre mais existent dans certains titres plus importants. Ils résolvent la dépendance à l’hôte au prix d’un effort de configuration.
+
+Avant de vous engager avec un groupe, vérifiez ce que la page du magasin promet réellement. Parcourir [la page de tag coop de Steam](https://store.steampowered.com/tags/en/Co-op/) est un moyen rapide de voir quels titres annoncent le jeu partagé, et la description du magasin précise généralement le nombre de joueurs et si la coop en ligne est disponible ou prévue.
+
+| Type de session | Persistance | Autorité des invités | Principal inconvénient |
+|---|---|---|---|
+| Hébergée par l’hôte | Liée à la sauvegarde de l’hôte | Moyenne à élevée | Dépendance à l’hôte |
+| Entrée/sortie libre | Liée à la sauvegarde de l’hôte | Faible | Décisions à long terme limitées |
+| Sauvegarde partagée / asynchrone | Liée au fichier | Totale pendant votre tour | Pas de coordination en direct |
+| Serveur dédié | Côté serveur | Configurable | Configuration et coût |
+
+## Répartir le travail : des rôles qui maintiennent un sanctuaire partagé en marche
+
+Le meilleur indicateur d’un groupe durable réussi est la clarté des rôles. Quand deux personnes pensent toutes les deux s’occuper du nourrissage, les dragons ont faim. Quand personne ne prend en charge la construction, le refuge stagne à sa taille de départ.
+
+Une répartition simple des rôles fonctionne étonnamment bien. Attribuez les rôles principaux au début d’une session, puis faites tourner toutes les quelques journées en jeu pour que personne ne reste coincé avec la tâche la moins populaire.
+
+| Rôle | Tâches principales | Pourquoi c’est important | Erreur courante |
+|---|---|---|---|
+| Soigneur | Nourrissage, nettoyage, contrôle des maladies | Empêche la lente dégradation des statistiques sur tout l’effectif | Accumuler de la nourriture « au cas où » |
+| Bâtisseur | Extension des habitats, clôtures, décoration | Débloque de la capacité pour de nouveaux sauvetages | Construire avant de vérifier le stockage partagé |
+| Récolteur | Récolte de nourriture, minerai et matériaux | Garde le soigneur approvisionné | Récolter des objets rares que personne n’a demandés |
+| Éleveur | Appariement des dragons, gestion des œufs | Améliore la qualité de l’effectif à long terme | Faire se reproduire sans accord sur la capacité |
+| Marchand | Vente du surplus, achat de l’essentiel | Convertit l’excédent en or | Vendre des dragons rares à bas prix |
+| Éclaireur | Trouver des sauvetages et des événements de carte | Alimente la croissance du refuge | Ramener plus de dragons que les habitats ne peuvent en accueillir |
+
+Deux règles gardent ce système honnête. Premièrement, le bâtisseur et l’éleveur doivent parler avant d’agir, car tous deux sont en concurrence pour le même espace. Deuxièmement, le marchand ne devrait jamais vendre un dragon qu’un autre joueur a élevé sans demander — c’est le moyen le plus rapide de mettre fin à un groupe coop.
+
+## Habitats, reproduction et échanges entre joueurs
+
+Les habitats partagés sont l’endroit où le multijoueur de refuge de dragons devient vraiment intéressant et vraiment chaotique. Dans la plupart des implémentations, les habitats sont communautaires : n’importe quel joueur peut placer un dragon dans un enclos, et n’importe quel joueur peut en retirer un. Cette ouverture est excellente pour la flexibilité et désastreuse pour l’organisation, à moins d’établir des conventions tôt.
+
+Une convention viable consiste à classer les enclos par fonction plutôt que par propriétaire. Un habitat pour les couples reproducteurs, un pour les juvéniles, un pour les sauvetages en quarantaine. Ainsi, chaque joueur sait où un dragon doit aller sans demander, et l’organisation survit quand quelqu’un quitte le groupe.
+
+La reproduction est généralement le système le plus sensible aux permissions. Certains titres laissent n’importe quel joueur lancer un appariement ; d’autres la réservent à l’hôte. Les retours de la communauté suggèrent que les groupes qui s’accordent sur une règle « pas de reproduction sans emplacement d’habitat libre » évitent le désastre le plus courant : un œuf sans endroit où aller.
+
+Les échanges entre joueurs sont souvent négligés. Même quand un jeu n’a pas de fenêtre d’échange formelle, les joueurs peuvent généralement transférer des dragons via le stockage partagé ou en les relâchant puis en les sauvant de nouveau. Si votre titre prend en charge les cadeaux directs, utilisez-les — c’est plus propre et cela évite les pertes accidentelles.
+
+| Système | Généralement partagé ? | À convenir en premier | Risque si vous l’omettez |
+|---|---|---|---|
+| Habitats | Oui | Convention de tri (reproduction, juvéniles, quarantaine) | Surpopulation et dégradation des statistiques |
+| Stockage de nourriture | Oui | Qui récolte et qui dépense | Famine pendant une session chargée |
+| Reproduction | Variable | Niveau de permission et disponibilité des emplacements | Œufs sans habitat |
+| Or / monnaie | Souvent partagé | Seuil d’approbation des achats | Un joueur vide le trésor |
+| Transferts de dragons | Variable | Si les transferts sont réversibles | Dragons perdus ou dupliqués |
+
+## Résoudre les problèmes coop les plus courants
+
+La plupart des échecs multijoueur dans ce genre ne sont pas des bugs — ce sont des attentes mal alignées. Pourtant, quelques problèmes techniques reviennent assez souvent pour qu’on prévoie de les gérer.
+
+| Problème | Cause probable | Solution |
+|---|---|---|
+| La progression d’un invité a disparu | L’hôte a chargé une sauvegarde plus ancienne | Confirmez quel fichier fait autorité avant chaque session |
+| Les dragons sont restés sans nourriture | Les deux joueurs pensaient que l’autre nourrissait | Publiez une liste de contrôle au début de la session |
+| Limite d’habitats atteinte | Le bâtisseur et l’éleveur ont agi indépendamment | Exigez un point rapide avant de dépenser des matériaux |
+| Latence pendant les grandes sessions | Trop de dragons et d’objets dans une même zone | Réduisez la densité de décoration ou divisez le sanctuaire en zones |
+| Un joueur est parti avec des dragons rares | Aucune règle de transfert | Établissez une règle écrite : aucun dragon ne part sans l’accord du groupe |
+| Sauvegarde corrompue après un crash | Arrêt anormal | Sauvegardez le dossier de sauvegarde avant les longues sessions |
+
+Une courte routine avant session évite la plupart de ces problèmes. Chargez la sauvegarde, confirmez l’effectif, vérifiez les niveaux de nourriture, convenez d’un objectif pour la session, et seulement ensuite commencez à jouer. Cela prend deux minutes et sauve des soirées entières.
+
+## Étiquette et jeu à long terme
+
+Les groupes multijoueur de refuge de dragons qui durent partagent généralement quelques habitudes :
+
+- **Écrivez les choses.** Une note partagée avec les rôles, les affectations d’habitat et les objectifs en attente élimine la plupart des ambiguïtés.
+- **Annoncez les grandes décisions.** Agrandir un habitat ou vendre un dragon affecte tout le monde.
+- **Respectez l’emploi du temps du gardien de sauvegarde.** Si l’hôte joue à heures fixes, organisez-vous autour de ces horaires plutôt que de le presser de se connecter.
+- **Laissez le sanctuaire dans un meilleur état que vous ne l’avez trouvé.** Remplissez les mangeoires, nettoyez les enclos et rendez les matériaux empruntés.
+- **Convenez d’un plan de sortie.** Décidez à l’avance comment le groupe répartit les biens si quelqu’un arrête de jouer.
+
+Les groupes qui suivent ces normes gardent souvent un même sanctuaire en activité pendant des mois, bien plus longtemps que la plupart des joueurs solo ne restent engagés sur la même sauvegarde.
+
+## FAQ
+
+**Tous les jeux de refuge de dragons prennent-ils en charge le multijoueur ?**
+Non. Beaucoup de titres de refuge de dragons sont conçus comme des expériences solo, et certains n’ajoutent la coop en ligne qu’après le lancement. Vérifiez toujours la page du magasin ou le site officiel du jeu spécifique que vous envisagez avant de l’acheter pour jouer en groupe.
+
+**Combien de joueurs peuvent rejoindre une session multijoueur de refuge de dragons ?**
+Cela varie beaucoup. Les petits titres indépendants limitent souvent la coop à deux à quatre joueurs, tandis que les projets plus importants peuvent en prendre davantage. Le nombre de joueurs est généralement indiqué dans la description du magasin ou dans le menu multijoueur du jeu.
+
+**Les invités peuvent-ils conserver leur progression dans une session hébergée par l’hôte ?**
+Généralement non, pas au sens traditionnel. Dans la plupart des configurations hébergées par l’hôte, le sanctuaire vit dans le fichier de sauvegarde de l’hôte, donc les invités contribuent à ce monde plutôt que d’en construire un à eux. Si vous voulez votre propre sanctuaire, commencez une sauvegarde séparée.
+
+**Quel est le moyen le plus rapide de corriger une désynchronisation ou un dragon manquant en coop ?**
+Rejoignez d’abord la session, car la plupart des désynchronisations se résolvent quand un client se reconnecte. Si le dragon manque toujours, demandez à l’hôte de recharger une sauvegarde récente et vérifiez si la créature a été déplacée dans un habitat que l’autre joueur ne peut pas voir.
