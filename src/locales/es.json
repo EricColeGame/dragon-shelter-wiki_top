@@ -1,1 +1,505 @@
-{}
+{
+  "site": {
+    "name": "Dragon Shelter Wiki",
+    "shortName": "Dragon Shelter",
+    "tagline": "Dragones compañeros, consejos de farming y guías de fantasía acogedora",
+    "description": "Dragon Shelter es un acogedor juego de simulación de vida fantástica en el que los jugadores restauran una granja abandonada, cultivan cosechas, exploran biomas mágicos y crean amistades con dragones compañeros únicos.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "mechanics": "Mecánicas",
+    "characters": "Personajes",
+    "items": "Objetos",
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "community": "Comunidad"
+  },
+  "guide": {
+    "overviewTitle": "Guías de Dragon Shelter",
+    "overviewDescription": "Guías paso a paso de Dragon Shelter para principiantes, farming, cocina, artesanía y todo lo que necesitas durante tus primeras semanas en el santuario."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de juego de Dragon Shelter",
+    "overviewDescription": "Cómo funcionan los sistemas clave de Dragon Shelter, incluidos el cuidado de dragones, el farming, la cocina, la artesanía, la gestión, el multijugador y la restauración del pueblo."
+  },
+  "characters": {
+    "overviewTitle": "Dragones y personajes de Dragon Shelter",
+    "overviewDescription": "Conoce a cada dragón, compañero, ayudante y ruta de amistad del reparto de criaturas mágicas de Dragon Shelter."
+  },
+  "items": {
+    "overviewTitle": "Objetos y recetas de Dragon Shelter",
+    "overviewDescription": "Guías de objetos y recetas de Dragon Shelter que cubren el pan, la mermelada, la cocina, la linterna de luciérnagas y los materiales que fabricas por el camino."
+  },
+  "release": {
+    "overviewTitle": "Lanzamiento y noticias de Dragon Shelter",
+    "overviewDescription": "Fecha de lanzamiento de Dragon Shelter, detalles de estreno, demo, tráiler y reseñas reunidos en un solo lugar."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas de Dragon Shelter",
+    "overviewDescription": "Dónde jugar a Dragon Shelter, con guías para Steam, PC, Steam Deck, Nintendo Switch y Xbox."
+  },
+  "community": {
+    "overviewTitle": "Comunidad de Dragon Shelter",
+    "overviewDescription": "Centros comunitarios de Dragon Shelter, Reddit, debates de cooperativo y multijugador, y las plataformas que usan los jugadores para compartir builds y consejos."
+  },
+  "home": {
+    "meta": {
+      "title": "Dragon Shelter Wiki — Dragones, farming, artesanía y guías",
+      "description": "La Dragon Shelter Wiki cubre dragones compañeros, farming, artesanía, cocina, construcción de hábitats y restauración del pueblo para tu santuario de fantasía acogedora."
+    },
+    "hero": {
+      "eyebrow": "Wiki comunitaria hecha por fans",
+      "title": "Dragon Shelter Wiki",
+      "description": "Restaura una granja abandonada, cultiva cosechas, explora biomas mágicos y hazte amigo de dragones compañeros únicos en Dragon Shelter. Nuestra wiki comunitaria cubre el farming, la artesanía, la cocina y la progresión.",
+      "stats": [
+        "4+ dragones",
+        "Farming acogedor",
+        "Artesanía y cocina",
+        "Actualizaciones semanales"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Guía de dragones",
+      "tertiaryCta": "Consejos de farming",
+      "videoLabel": "Medios oficiales"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje en Dragon Shelter",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende el bucle principal, prepara tu primer hábitat y evita los errores tempranos que frenan a los nuevos santuarios."
+        },
+        {
+          "number": "2",
+          "title": "Fundamentos del cuidado de dragones",
+          "description": "Asigna a cada dragón el hábitat adecuado, aliméntalo con la dieta correcta y gana su confianza con una rutina diaria constante."
+        },
+        {
+          "number": "3",
+          "title": "Farming y recursos",
+          "description": "Recoge la producción de los hábitats, cría en cuanto terminen los tiempos de espera y reinvierte en capacidad para que tu santuario financie su propio crecimiento."
+        },
+        {
+          "number": "4",
+          "title": "Artesanía y construcción del refugio",
+          "description": "Elige el nivel de material adecuado y las características climáticas para que cada recinto resista tormentas y calor."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Guías de Dragon Shelter en tendencia",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Tipos de dragones",
+        "Bucle de farming",
+        "Recetas de cocina"
+      ],
+      "cards": [
+        {
+          "badge": "Inicio",
+          "title": "Guía para principiantes",
+          "description": "Bucle principal, primer hábitat y los errores tempranos que frenan a los nuevos santuarios.",
+          "href": "/guide/dragon-shelter-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Dragones explicados",
+          "description": "Arquetipos occidental, oriental, wyvern y drake con notas de hábitat y cuidado.",
+          "href": "/characters/dragon-shelter-dragons"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Guía de farming",
+          "description": "Cría, reproducción y gestión de espacios que convierten un huevo en una economía estable.",
+          "href": "/mechanics/dragon-shelter-farming"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Guía de cocina",
+          "description": "Ingredientes, estaciones y buffs de comidas que mantienen a cada dragón creciendo rápido.",
+          "href": "/mechanics/dragon-shelter-cooking"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guía de artesanía",
+          "description": "Niveles de materiales y características climáticas para hábitats seguros y resistentes a tormentas.",
+          "href": "/mechanics/dragon-shelter-crafting"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Restauración del pueblo",
+          "description": "Reconstruye ruinas, prioriza edificios y cría dragones en un bucle repetible.",
+          "href": "/mechanics/dragon-shelter-village-restoration"
+        },
+        {
+          "badge": "Popular",
+          "title": "Dragones compañeros",
+          "description": "Roles de compañero, estilos de vínculo y los hábitats que prefiere cada arquetipo.",
+          "href": "/characters/dragon-shelter-dragon-companions"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Refugios cooperativos",
+          "description": "Reparte roles, comparte diseños y mantén un santuario grupal activo toda la semana.",
+          "href": "/community/dragon-shelter-co-op"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Fecha de lanzamiento",
+          "description": "Cómo seguir la fecha de lanzamiento de Dragon Shelter y prepararte antes del estreno.",
+          "href": "/release/dragon-shelter-release-date"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Dragon Shelter?",
+      "paragraphs": [
+        "Dragon Shelter es un acogedor juego de simulación de vida fantástica sobre rescatar dragones y reconstruir el santuario en el que viven. Restauras una granja abandonada, cultivas cosechas, reúnes materiales y fabricas hábitats que encajan con el clima de cada dragón, y luego cocinas comidas que mantienen a tus residentes sanos y en crecimiento.",
+        "El bucle principal une el cuidado de criaturas, la construcción de instalaciones y una economía ligera: acoge a un dragón, evalúa sus necesidades, colócalo en un hábitat adecuado, mantenlo alimentado y cómodo, y reinvierte las recompensas en nuevos hábitats y compañeros más raros. Nuestra wiki desglosa cada sistema con tutoriales para principiantes, guías de farming y artesanía y referencias detalladas de dragones."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "The Wild Forest Studio"
+        },
+        {
+          "label": "Editor",
+          "value": "Curve Games"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Género",
+          "value": "Simulación de vida fantástica acogedora"
+        },
+        {
+          "label": "Tipos de dragones",
+          "value": "7+"
+        },
+        {
+          "label": "Niveles de material",
+          "value": "4"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora la wiki de Dragon Shelter",
+      "description": "Ocho módulos de Dragon Shelter cubren el bucle inicial, el cuidado de dragones, el farming, la cocina, la artesanía, los personajes, las actualizaciones y los objetivos de finalización a largo plazo.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Dragon Shelter",
+          "description": "Este módulo introduce a los nuevos jugadores en el bucle de juego principal, incluidos el farming, el cuidado de dragones, la exploración, la cocina, la artesanía y la reconstrucción del refugio. Ayuda a los principiantes a entender los primeros pasos y las prioridades importantes del inicio.",
+          "href": "/guide/dragon-shelter-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Acogida: acepta o incuba un nuevo dragón para iniciar el ciclo de cuidado y desbloquear nuevos objetivos"
+            },
+            {
+              "label": "2",
+              "detail": "Evaluación: revisa las necesidades y rasgos del dragón para decidir qué hábitat le conviene más"
+            },
+            {
+              "label": "3",
+              "detail": "Colocación: asigna o construye un hábitat adecuado, ya que un alojamiento inadecuado agota la felicidad rápido"
+            },
+            {
+              "label": "4",
+              "detail": "Mantenimiento: alimenta, limpia e interactúa para mantener la felicidad y un crecimiento constante"
+            },
+            {
+              "label": "5",
+              "detail": "Recompensa: recoge recompensas, huevos y recursos que financian la siguiente ronda de expansión"
+            },
+            {
+              "label": "6",
+              "detail": "Reinversión: mejora una sola cosa a la vez para que el progreso se acumule en lugar de dispersarse"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de dragones de Dragon Shelter",
+          "description": "Este módulo cubre los dragones compañeros, incluidos los disponibles, sus habilidades, rasgos, roles y cómo ayudan en el farming y la exploración. Los jugadores que buscan información sobre dragones pueden comparar rápidamente las características de los compañeros.",
+          "href": "/characters/dragon-shelter-dragons",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Drake: dócil, terrestre y de bajo mantenimiento, el primer dragón más estable para nuevos cuidadores"
+            },
+            {
+              "label": "A",
+              "detail": "Dragón oriental: tranquilo y sociable, se adapta rápido a un hábitat de valle fluvial con niebla y cielo abierto"
+            },
+            {
+              "label": "B",
+              "detail": "Dragón occidental: territorial y orgulloso, se vincula despacio y necesita espacio y un tesoro que vigilar"
+            },
+            {
+              "label": "C",
+              "detail": "Wyvern: agresiva e independiente, exige altos posaderos de acantilado y un cuidador experimentado"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía de farming de Dragon Shelter",
+          "description": "Este módulo explica los sistemas de farming, como cultivar cosechas, reunir recursos, mejorar la granja y usar eficazmente a los dragones ayudantes. Está dirigido a jugadores que buscan optimizar las actividades diarias de la granja.",
+          "href": "/mechanics/dragon-shelter-farming",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Recoge la producción de los hábitats en cada inicio de sesión para que la producción nunca quede inactiva"
+            },
+            {
+              "label": "2",
+              "detail": "Alimenta y revisa el confort de los dragones una o dos veces al día para proteger su rendimiento"
+            },
+            {
+              "label": "3",
+              "detail": "Inicia nuevas crías en cuanto terminen los tiempos de espera para que los huevos no paren de llegar"
+            },
+            {
+              "label": "4",
+              "detail": "Traslada los huevos eclosionados a la guardería, cerca de tu producción de comida"
+            },
+            {
+              "label": "5",
+              "detail": "Ocupa rápido los espacios vacíos, porque incluso un dragón mediocre es mejor que un rendimiento perdido"
+            },
+            {
+              "label": "6",
+              "detail": "Reinvierte en nuevos hábitats antes que en cosméticos, porque la capacidad se acumula"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Recetas de cocina de Dragon Shelter",
+          "description": "Este módulo ofrece información sobre las mecánicas de cocina, recetas, ingredientes y cómo las comidas apoyan la progresión y las relaciones. Está dirigido a búsquedas relacionadas con la preparación de comida y el descubrimiento de recetas.",
+          "href": "/mechanics/dragon-shelter-cooking",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Estofado de bayas",
+              "detail": "Buff de aguante prolongado para largas rutas de recolección"
+            },
+            {
+              "label": "Asado de miel",
+              "detail": "Impulso de crecimiento breve y potente para sesiones de entrenamiento"
+            },
+            {
+              "label": "Hogaza de hierbas",
+              "detail": "Ganancia de ánimo y vínculo para dragones recién eclosionados"
+            },
+            {
+              "label": "Tarta de cristal",
+              "detail": "Velocidad de eclosión y probabilidades de cría para ventanas limitadas"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía de artesanía de Dragon Shelter",
+          "description": "Este módulo explica los sistemas de artesanía, la recolección de recursos, la creación de objetos y las mejoras útiles. Ayuda a los jugadores a entender cómo se conectan los materiales con el farming, la cocina y la exploración.",
+          "href": "/mechanics/dragon-shelter-crafting",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "T1 Paja",
+              "detail": "Paja, barro y madera para las primeras crías en climas suaves"
+            },
+            {
+              "label": "T2 Piedra",
+              "detail": "Piedra cortada y ladrillo cocido para dragones adultos y clima variable"
+            },
+            {
+              "label": "T3 Cristal",
+              "detail": "Piedra curada al calor y paneles de cristal para dragones de fuego y tormenta"
+            },
+            {
+              "label": "T4 Aleación",
+              "detail": "Marcos de aleación y bloques grabados con runas para dragones supremos y biomas extremos"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de personajes de Dragon Shelter",
+          "description": "Este módulo presenta a los habitantes del pueblo, las relaciones, las misiones y las funciones de reconstrucción de la comunidad. Está dirigido a jugadores que buscan información sobre PNJ y ayuda para progresar en la historia.",
+          "href": "/characters/dragon-shelter-dragon-companions",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Recolector",
+              "detail": "Recoge hierbas, mineral y material de nido en rutas largas"
+            },
+            {
+              "label": "Guardián",
+              "detail": "Patrulla las murallas e intercepta a los intrusos cerca de territorio rival"
+            },
+            {
+              "label": "Sanador",
+              "detail": "Restaura aguante y trata lesiones de toda una plantilla"
+            },
+            {
+              "label": "Explorador",
+              "detail": "Revela zonas inexploradas y rastrea dragones salvajes"
+            },
+            {
+              "label": "Cuidador",
+              "detail": "Acelera la incubación de huevos y el crecimiento de las crías para los criadores"
+            },
+            {
+              "label": "Cargador",
+              "detail": "Mueve cargas pesadas entre el almacén y los hábitats abarrotados"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Actualizaciones y noticias de Dragon Shelter",
+          "description": "Este módulo reúne anuncios oficiales, parches, demos y novedades de desarrollo. Ayuda a los usuarios a encontrar la información más reciente directamente de fuentes oficiales.",
+          "href": "/release/dragon-shelter-launch",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Estreno",
+              "detail": "Expectativas del día de lanzamiento, consejos de preparación y hábitos de la primera semana"
+            },
+            {
+              "label": "Demo",
+              "detail": "Qué cubre la demo jugable y cómo trasladar el progreso"
+            },
+            {
+              "label": "Lanzamiento",
+              "detail": "Cómo seguir la fecha de lanzamiento y preparar tu primer santuario"
+            },
+            {
+              "label": "Tráiler",
+              "detail": "Análisis del tráiler oficial y de los sistemas que muestra"
+            },
+            {
+              "label": "Reseña",
+              "detail": "Impresiones prácticas sobre la construcción de hábitats, el cuidado y el ritmo"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Guía de logros de Dragon Shelter",
+          "description": "Este módulo enumera logros y objetivos de finalización, y ayuda a los jugadores a seguir su progreso y descubrir objetivos opcionales. Es útil para quienes buscan la completación total.",
+          "href": "/guide/dragon-shelter-walkthrough",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Primera eclosión",
+              "detail": "Incuba y haz eclosionar tu primer huevo de dragón"
+            },
+            {
+              "label": "Refugio estable",
+              "detail": "Repara un posadero, un almacén y una fuente de comida en una base segura"
+            },
+            {
+              "label": "Primer vínculo",
+              "detail": "Gánate la confianza de un dragón con una rutina diaria constante"
+            },
+            {
+              "label": "Rescate raro",
+              "detail": "Acoge a un dragón raro y dale un hábitat adecuado"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes de Dragon Shelter",
+      "description": "Respuestas rápidas a las preguntas más comunes sobre Dragon Shelter: dragones, hábitats, farming, cocina y progresión.",
+      "items": [
+        {
+          "question": "¿Qué es Dragon Shelter?",
+          "answer": "Dragon Shelter es un acogedor juego de simulación de vida fantástica en el que rescatas dragones, restauras una granja y un pueblo abandonados y construyes un santuario a su alrededor. Cultivas cosechas, reúnes materiales, fabricas hábitats adaptados al clima, cocinas comidas y te haces amigo de un elenco de dragones compañeros."
+        },
+        {
+          "question": "¿Cómo deberían empezar los principiantes en Dragon Shelter?",
+          "answer": "Termina el tutorial, construye un solo hábitat básico en lugar de varios y acoge al principio solo a dos o tres dragones. Prepara la producción de comida antes de necesitarla y luego amplía un hábitat a la vez para que tus ingresos sigan el ritmo de tu carga de cuidados."
+        },
+        {
+          "question": "¿Qué necesitan los dragones en Dragon Shelter?",
+          "answer": "Cada dragón necesita un hábitat que se ajuste a su rango de temperatura, humedad, altura y nivel de ruido. Alimenta a cada dragón con la dieta correcta, pon en cuarentena a los recién llegados y mantén una rutina diaria constante, porque el temperamento y un hábitat adecuado importan más que la rareza pura."
+        },
+        {
+          "question": "¿Cómo funciona el farming en Dragon Shelter?",
+          "answer": "El farming de Dragon Shelter se basa en un bucle repetible: recoge la producción de los hábitats en cada inicio de sesión, alimenta y revisa el confort de tus dragones, inicia nuevas crías cuando terminen los tiempos de espera, traslada los huevos eclosionados a la guardería y reinvierte la moneda en capacidad en lugar de en cosméticos."
+        },
+        {
+          "question": "¿Cómo cocino para los dragones en Dragon Shelter?",
+          "answer": "Reúne ingredientes en una ruta fija, construye tus estaciones en orden desde la hoguera hasta el caldero, el horno y el ahumador, y luego cocina platos que encajen con la afinidad de sabor de cada dragón. Alimenta antes de que expire un buff para que tus dragones nunca pierdan tiempo de crecimiento."
+        },
+        {
+          "question": "¿Dónde puedo jugar a Dragon Shelter?",
+          "answer": "Dragon Shelter está disponible en PC a través de Steam, donde también puedes seguir los anuncios oficiales, los parches y las novedades de la comunidad."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para dominar Dragon Shelter?",
+      "description": "Desde tu primera parcela hasta tu primer dragón compañero, nuestra wiki comunitaria te ofrece guías gratuitas y actualizadas.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar en Steam"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación del wiki",
+    "updated": "Actualizado",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Tabla de contenidos",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lectura relacionada",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Todavía no hay guías disponibles. ¡Vuelve pronto!",
+    "browseCategories": "Explorar categorías"
+  },
+  "footer": {
+    "aboutTitle": "Dragon Shelter Wiki",
+    "about": "Dragon Shelter Wiki es un centro de guías independiente creado por fans que cubre dragones compañeros, farming, artesanía, cocina, exploración y conocimientos esenciales del juego para jugadores nuevos y veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Dragon Shelter Wiki. No está afiliada a The Wild Forest Studio ni a Curve Games.",
+    "description": "Simulación de vida fantástica acogedora de farming de dragones. Restaura tu granja, hazte amigo de los dragones y explora biomas mágicos.",
+    "playGame": "Jugar a Dragon Shelter en Steam",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "Centro comunitario de Steam",
+    "beginnerGuide": "Guía para principiantes",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "characterGuides": "Guías de dragones",
+    "mechanicsGuides": "Mecánicas",
+    "itemGuides": "Objetos y recetas"
+  }
+}
