@@ -12,8 +12,8 @@
   },
   "home": {
     "meta": {
-      "title": "Dragon Shelter Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete Dragon Shelter guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Dragon Shelter Wiki — Dragons, Farming, Crafting & Guides",
+      "description": "The Dragon Shelter Wiki covers dragon companions, farming, crafting, cooking, habitat building, and village restoration for your cozy fantasy sanctuary."
     },
     "hero": {
       "eyebrow": "Fan-Made Community Wiki",
@@ -42,288 +42,386 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core loop, set up your first habitat, and avoid the early mistakes that stall new sanctuaries."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Dragon Care Basics",
+          "description": "Match each dragon to the right habitat, feed its correct diet, and build trust through a steady daily routine."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Farming & Resources",
+          "description": "Collect habitat output, breed on cooldown, and reinvest into capacity so your sanctuary funds its own growth."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Dragon Shelter."
+          "title": "Crafting & Shelter Building",
+          "description": "Pick the right material tier and climate features so every enclosure stays safe through storms and heat."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Trending Dragon Shelter Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Dragon Types",
+        "Farming Loop",
+        "Cooking Recipes"
       ],
       "cards": [
         {
-          "badge": "Beginner",
+          "badge": "Start",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Core loop, first habitat, and the early mistakes that stall new sanctuaries.",
+          "href": "/guide/dragon-shelter-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Dragons Explained",
+          "description": "Western, Eastern, wyvern, and drake archetypes with habitat and care notes.",
+          "href": "/characters/dragon-shelter-dragons"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "Farming Guide",
+          "description": "Raising, breeding, and slot management that turns one egg into a steady economy.",
+          "href": "/mechanics/dragon-shelter-farming"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Cooking Guide",
+          "description": "Ingredients, stations, and meal buffs that keep every dragon growing fast.",
+          "href": "/mechanics/dragon-shelter-cooking"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Crafting Guide",
+          "description": "Material tiers and climate features for safe, storm-proof dragon habitats.",
+          "href": "/mechanics/dragon-shelter-crafting"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Village Restoration",
+          "description": "Rebuild ruins, prioritize buildings, and raise dragons in a repeatable loop.",
+          "href": "/mechanics/dragon-shelter-village-restoration"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Dragon Companions",
+          "description": "Companion roles, bonding styles, and the habitats each archetype prefers.",
+          "href": "/characters/dragon-shelter-dragon-companions"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Co-Op Shelters",
+          "description": "Split roles, share layouts, and keep a group sanctuary running all week.",
+          "href": "/community/dragon-shelter-co-op"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Updated",
+          "title": "Release Date",
+          "description": "How to track the Dragon Shelter release date and prepare before launch.",
+          "href": "/release/dragon-shelter-release-date"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Dragon Shelter?",
       "paragraphs": [
-        "Dragon Shelter is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Dragon Shelter is a cozy fantasy life simulation game about rescuing dragons and rebuilding the sanctuary they live in. You restore an abandoned farm, grow crops, gather materials, and craft habitats that match each dragon's climate, then cook meals that keep your residents healthy and growing.",
+        "The core loop ties creature care, facility building, and a light economy together: take in a dragon, assess its needs, place it in a suitable habitat, keep it fed and comfortable, then reinvest the rewards into new habitats and rarer companions. Our wiki breaks down every system with beginner walkthroughs, farming and crafting guides, and detailed dragon references."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "The Wild Forest Studio"
+        },
+        {
+          "label": "Publisher",
+          "value": "Curve Games"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Cozy Fantasy Life Sim"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Dragon Types",
+          "value": "7+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
-        },
-        {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Material Tiers",
+          "value": "4"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore Dragon Shelter Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore the Dragon Shelter Wiki",
+      "description": "Eight Dragon Shelter modules cover the beginner loop, dragon care, farming, cooking, crafting, characters, updates, and long-term completion goals.",
       "modules": [
         {
           "order": 1,
-          "name": "Dragon Shelter Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/dragon-shelter-codes",
-          "displayType": "code-box",
+          "name": "Dragon Shelter Beginner Guide",
+          "description": "This module introduces new players to the core gameplay loop, including farming, dragon care, exploration, cooking, crafting, and rebuilding the shelter. It helps beginners understand the first steps and important early-game priorities.",
+          "href": "/guide/dragon-shelter-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Intake: accept or hatch a new dragon to start the care cycle and unlock fresh goals"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Assessment: check the dragon's needs and traits to decide which habitat fits it best"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Placement: assign or build a suitable habitat, since mismatched housing drains happiness fast"
+            },
+            {
+              "label": "4",
+              "detail": "Upkeep: feed, clean, and interact to sustain happiness and steady growth"
+            },
+            {
+              "label": "5",
+              "detail": "Payout: collect rewards, eggs, and resources that fund the next round of expansion"
+            },
+            {
+              "label": "6",
+              "detail": "Reinvest: upgrade one thing at a time so progress compounds instead of scattering"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/dragon-shelter-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Dragon Shelter Dragons Guide",
+          "description": "This module covers dragon companions, including available dragons, their abilities, traits, roles, and how they help with farming and exploration. Players searching for dragon information can quickly compare companion features.",
+          "href": "/characters/dragon-shelter-dragons",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Drake: docile, ground-based, and low-maintenance, the steadiest first dragon for new keepers"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Eastern Dragon: calm and social, settling fast in a river valley habitat with mist and open sky"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Western Dragon: territorial and proud, bonding slowly and needing space plus a hoard to guard"
+            },
+            {
+              "label": "C",
+              "detail": "Wyvern: aggressive and independent, demanding high cliff perches and an experienced handler"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/dragon-shelter-tier-list",
-          "displayType": "tier-grid",
+          "name": "Dragon Shelter Farming Guide",
+          "description": "This module explains farming systems such as growing crops, gathering resources, improving the farm, and using dragon helpers efficiently. It targets players looking for ways to optimize daily farm activities.",
+          "href": "/mechanics/dragon-shelter-farming",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "1",
+              "detail": "Collect habitat output on every login so production never sits idle"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "2",
+              "detail": "Feed and comfort-check dragons once or twice a day to protect their output"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "3",
+              "detail": "Start new breedings as soon as cooldowns end to keep eggs coming"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "4",
+              "detail": "Move hatched eggs into the nursery close to your food production"
+            },
+            {
+              "label": "5",
+              "detail": "Fill empty slots quickly, because even a mediocre dragon beats lost output"
+            },
+            {
+              "label": "6",
+              "detail": "Reinvest in new habitats before cosmetics, since capacity compounds"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/dragon-shelter-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Dragon Shelter Cooking Recipes",
+          "description": "This module provides information about cooking mechanics, recipes, ingredients, and how meals support progression and relationships. It targets searches related to food crafting and recipe discovery.",
+          "href": "/mechanics/dragon-shelter-cooking",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Berry Stew",
+              "detail": "Sustained stamina buff for long gathering routes"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Honey Roast",
+              "detail": "Short, strong growth boost for training sessions"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Herb Loaf",
+              "detail": "Mood and bonding gain for newly hatched dragons"
+            },
+            {
+              "label": "Crystal Tart",
+              "detail": "Hatching speed and breeding odds for timed windows"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/dragon-shelter-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Dragon Shelter Crafting Guide",
+          "description": "This module explains crafting systems, resource collection, item creation, and useful upgrades. It helps players understand how materials connect to farming, cooking, and exploration.",
+          "href": "/mechanics/dragon-shelter-crafting",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "T1 Thatch",
+              "detail": "Thatch, mud, and timber for first hatchlings in mild climates"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "T2 Stone",
+              "detail": "Cut stone and fired brick for adult dragons and mixed weather"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "T3 Crystal",
+              "detail": "Heat-cured stone and crystal panes for fire and storm dragons"
+            },
+            {
+              "label": "T4 Alloy",
+              "detail": "Alloy frames and rune-etched blocks for apex dragons and extreme biomes"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/dragon-shelter-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Dragon Shelter Characters Guide",
+          "description": "This module introduces townspeople, relationships, quests, and community rebuilding features. It targets players searching for NPC information and story progression help.",
+          "href": "/characters/dragon-shelter-dragon-companions",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Forager",
+              "detail": "Collects herbs, ore, and nesting material on long routes"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Guardian",
+              "detail": "Patrols the walls and intercepts intruders near rival territory"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Healer",
+              "detail": "Restores stamina and treats injuries across a large roster"
+            },
+            {
+              "label": "Scout",
+              "detail": "Reveals unexplored zones and tracks wild dragons"
+            },
+            {
+              "label": "Nurturer",
+              "detail": "Speeds egg incubation and hatchling growth for breeders"
+            },
+            {
+              "label": "Hauler",
+              "detail": "Moves heavy loads between storage and crowded habitats"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Dragon Shelter Updates and News",
+          "description": "This module collects official announcements, patches, demos, and development updates. It helps users find the latest information directly from official sources.",
+          "href": "/release/dragon-shelter-launch",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Launch",
+              "detail": "Release-day expectations, preparation tips, and first-week habits"
+            },
+            {
+              "label": "Demo",
+              "detail": "What the playable demo covers and how to carry progress forward"
+            },
+            {
+              "label": "Release",
+              "detail": "How to track the release date and prepare your first sanctuary"
+            },
+            {
+              "label": "Trailer",
+              "detail": "Official trailer breakdown and the systems it previews"
+            },
+            {
+              "label": "Review",
+              "detail": "Hands-on impressions of habitat building, care, and pacing"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Dragon Shelter Achievements Guide",
+          "description": "This module lists achievements and completion goals, helping players track progression and discover optional objectives. It is useful for players aiming for full completion.",
+          "href": "/guide/dragon-shelter-walkthrough",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "First Hatch",
+              "detail": "Incubate and hatch your very first dragon egg"
+            },
+            {
+              "label": "Stable Shelter",
+              "detail": "Repair a roost, storage, and food source into one safe base"
+            },
+            {
+              "label": "First Bond",
+              "detail": "Earn a dragon's trust through a steady daily routine"
+            },
+            {
+              "label": "Rare Rescue",
+              "detail": "Take in a rare dragon and give it a matching habitat"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Dragon Shelter.",
+      "title": "Dragon Shelter FAQ",
+      "description": "Quick answers to the most common Dragon Shelter questions about dragons, habitats, farming, cooking, and progression.",
       "items": [
         {
           "question": "What is Dragon Shelter?",
-          "answer": "Dragon Shelter is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Dragon Shelter is a cozy fantasy life simulation game where you rescue dragons, restore an abandoned farm and village, and build a sanctuary around them. You grow crops, gather materials, craft climate-matched habitats, cook meals, and befriend a roster of dragon companions."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How should beginners start Dragon Shelter?",
+          "answer": "Finish the tutorial, build one basic habitat instead of several, and take in only two or three dragons at first. Set up food production before you need it, then expand one habitat at a time so your income keeps pace with your care load."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What do dragons need in Dragon Shelter?",
+          "answer": "Every dragon needs a habitat that matches its temperature band, humidity, vertical clearance, and noise level. Feed each dragon its correct diet, quarantine new arrivals, and keep a steady daily routine, because temperament and habitat fit matter more than raw rarity."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How does farming work in Dragon Shelter?",
+          "answer": "Dragon Shelter farming runs on a repeatable loop: collect habitat output on every login, feed and comfort-check your dragons, start new breedings when cooldowns end, move hatched eggs to the nursery, and reinvest currency into capacity rather than cosmetics."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How do I cook for dragons in Dragon Shelter?",
+          "answer": "Gather ingredients on a fixed route, build your stations in order from campfire to cauldron, oven, and smoker, then cook dishes that match each dragon's flavor affinity. Feed before a buff expires so your dragons never lose growth time."
+        },
+        {
+          "question": "Where can I play Dragon Shelter?",
+          "answer": "Dragon Shelter is available on PC through Steam, where you can also follow official announcements, patches, and community updates."
         }
       ]
     },
